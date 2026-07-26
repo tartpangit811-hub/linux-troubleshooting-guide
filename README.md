@@ -1,60 +1,92 @@
 # Linux Troubleshooting Guide
 
-A practical collection of common Linux and Termux problems along with step-by-step solutions.
+A practical collection of common Linux and Termux problems with step-by-step solutions.
 
-## Contents
+## Table of Contents
 
-### Package Management Issues
+### Core Guides
 
-- Unable to install packages
-- Repository errors
-- Package conflicts
-- Update and upgrade failures
+- [Termux Issues](Termux-Issues.md)
+- [GitHub Issues](GitHub-Issues.md)
+- [Network Problems](Network-Problems.md)
+- [Linux Permissions](Linux-Permissions.md)
+- [SSH Issues](SSH-Issues.md)
+- [Package Management](Package-Management.md)
+- [Python Issues](Python-Issues.md)
+- [Storage Issues](Storage-Issues.md)
+- [Performance Issues](Performance-Issues.md)
 
-### Permission Problems
+## Topics Covered
 
-- Permission denied
-- Executable file issues
-- File ownership problems
+### Linux
 
-### Storage Issues
+- Permissions
+- Package management
+- Storage management
+- Performance optimization
 
-- No space left on device
-- Storage access problems in Termux
-- File system errors
+### Termux
 
-### Network Problems
+- Installation problems
+- Storage access
+- Package issues
+- Python setup
 
-- No internet connection
-- DNS resolution failures
-- SSH connection issues
-- Slow network troubleshooting
+### Networking
 
-### Termux Issues
+- DNS issues
+- Connectivity problems
+- SSH troubleshooting
+- Network diagnostics
 
-- Termux storage permission errors
-- Package installation failures
-- Python environment problems
-- Git configuration issues
+### Git & GitHub
 
-### Git & GitHub Issues
-
-- Authentication errors
-- Push rejected errors
+- Authentication issues
+- Push and pull errors
+- Repository problems
 - Merge conflicts
-- Repository access problems
 
-### Python Issues
+### Python
 
-- Module not found
-- Pip installation failures
-- Virtual environment problems
+- Installation issues
+- Pip problems
+- Module errors
+- Virtual environments
 
-### System Performance
+## Repository Structure
 
-- High CPU usage
-- High memory usage
-- Slow system performance
+```text
+linux-troubleshooting-guide
+│
+├── README.md
+├── Termux-Issues.md
+├── GitHub-Issues.md
+├── Network-Problems.md
+├── Linux-Permissions.md
+├── SSH-Issues.md
+├── Package-Management.md
+├── Python-Issues.md
+├── Storage-Issues.md
+└── Performance-Issues.md
+```
+
+## Who Is This For?
+
+- Linux beginners
+- Termux users
+- Students
+- Developers
+- IT Support
+- Network Technicians
+- System Administrators
+
+## Goals
+
+This project aims to provide simple and practical solutions to common Linux and Termux problems.
+
+## Contributing
+
+Contributions, corrections, and suggestions are welcome.
 
 ## Author
 
